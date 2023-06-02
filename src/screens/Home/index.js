@@ -14,7 +14,7 @@ function Home({ navigation }) {
                 onPress={() => navigation.navigate('Catalogo')}
                 title="Começar"
                 buttonStyle={{
-                    backgroundColor: '#76D2C7',
+                    backgroundColor: '#000000',
                     borderRadius: 12,
                 }}      
                 containerStyle={{
@@ -32,20 +32,20 @@ function Home({ navigation }) {
 
 const styles = StyleSheet.create({
     container: {
-      backgroundColor: "#2F2F3A",
+      backgroundColor: "#FFFFFF",
       width: "100%",
       height: "100%",
       flexDirection: 'column',
       textAlign: "center,"
     },
     textStyle1: {
-        color: "#ffffff",
+        color: "#000000",
         marginLeft: 160,
         marginTop: 30,
         fontWeight: "bold",
     },
     textStyle2: {
-        color: "#ffffff",
+        color: "#000000",
         marginLeft: 5,
         marginTop: 20,
         textAlign: "center"
