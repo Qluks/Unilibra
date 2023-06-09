@@ -14,7 +14,7 @@ function Home({ navigation }) {
                 onPress={() => navigation.navigate('Catalogo')}
                 title="Começar"
                 buttonStyle={{
-                    backgroundColor: '#000000',
+                    backgroundColor: '#f2af58',
                     borderRadius: 12,
                 }}      
                 containerStyle={{

@@ -49,8 +49,8 @@ const styles = StyleSheet.create({
   },
   rectangle: {
     borderRadius: 15,
-    padding: 20,
-    backgroundColor: "#000000",
+    padding: 18,
+    backgroundColor: "#f2af58",
     margin: 10,
   },
   text: {

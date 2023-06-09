@@ -39,9 +39,9 @@ export default function App() {
             headerTitleAlign: 'center'
           }} />
           <Stack.Screen name="Exemplos" component={Exemplos} options={{
-            headerTintColor: '#000000',
+            headerTintColor: '#FFFFFF',
             headerStyle: {
-              backgroundColor: '#FFFFFF',
+              backgroundColor: '#000000',
               textAlign: 'center',
             },
             headerShadowVisible: false,
