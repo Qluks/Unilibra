@@ -18,9 +18,8 @@ function Home({ navigation }) {
                     borderRadius: 12,
                 }}      
                 containerStyle={{
-                    width: 339,
+                    width: 300,
                     height: 55,
-                    marginLeft: 34,
                     marginTop: 50,
                     fontSize: 18,   
                 }}
@@ -36,11 +35,11 @@ const styles = StyleSheet.create({
       width: "100%",
       height: "100%",
       flexDirection: 'column',
-      textAlign: "center,"
+      textAlign: "center",
+      alignItems: "center"
     },
     textStyle1: {
         color: "#000000",
-        marginLeft: 160,
         marginTop: 30,
         fontWeight: "bold",
     },
@@ -51,7 +50,6 @@ const styles = StyleSheet.create({
         textAlign: "center"
     },
     image: {
-        marginLeft: 100,
         marginTop: 150,
         width: 200,
         height: 200,

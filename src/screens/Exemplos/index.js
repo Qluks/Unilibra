@@ -24,15 +24,12 @@ function Exemplos({ route }) {
     <View style={styles.container}>
       <YoutubeIframe
         height={900}
-        play={true}
+        forceAndroidAutoplay={true}
         videoId={video.videoId}
-        webViewProps={{
-          injectedJavaScript: `
-        var element = document.getElementsByClassName('container')[0];
-        element.style.position = 'unset';
-        element.style.paddingBottom = 'unset';
-        true;
-      `,
+        webViewStyle={{
+          flex: 1,
+          height:500,
+          alignItems: 'center',
         }}
       />
     </View>
@@ -44,8 +41,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
     width: "100%",
     height: "100%",
-    flexDirection: "column",
-    justifyContent: "center",
   },
 });
 export default Exemplos;

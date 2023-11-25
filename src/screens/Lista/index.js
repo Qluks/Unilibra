@@ -46,9 +46,11 @@ const styles = StyleSheet.create({
     height: "100%",
     flexDirection: "column",
     textAlign: "center",
+    alignItems: "center"
   },
   rectangle: {
     borderRadius: 15,
+    width: 350,
     padding: 18,
     backgroundColor: "#f2af58",
     margin: 10,

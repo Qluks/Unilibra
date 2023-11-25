@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
     height: "100%",
     flexDirection: "column",
     textAlign: "center",
+    alignItems: "center"
   },
   categoryItem: {
     alignItems: "center",
