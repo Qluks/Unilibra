@@ -4,6 +4,9 @@
     "slug": "Unilibra",
     "version": "1.0.0",
     "orientation": "portrait",
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
